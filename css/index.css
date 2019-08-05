@@ -201,6 +201,13 @@ footer {
 .container {
   border: 1px solid red;
 }
+@media (max-width: 500px) {
+  .container {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .container .intro h2 {
   padding: 15px;
 }
@@ -248,7 +255,7 @@ footer {
 }
 @media (max-width: 500px) {
   .container .walk {
-    flex-wrap: unwrap;
+    flex-direction: column;
   }
 }
 .container .walk .walk-text {
@@ -257,7 +264,7 @@ footer {
 @media (max-width: 500px) {
   .container .walk .walk-text {
     border: 1px solid red;
-    width: 75%;
+    width: 80%;
   }
 }
 .container .walk .walk-text h3 {
@@ -289,10 +296,4 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
-}
-@media (max-width: 500px) {
-  .container .walk .walk-img img {
-    display: flex;
-    flex-direction: column-reverse;
-  }
 }

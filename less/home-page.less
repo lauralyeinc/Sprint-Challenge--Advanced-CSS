@@ -1,18 +1,17 @@
 // Home Content
 .container {
   border: 1px solid red;
+  @media @phone{
+    .center();
+  }
   .intro {
-
     h2 {
       padding: 15px;
     }
-
     p {
       padding:0 15px;
     }
-  
   }
-
   .space-images {
     border: 1px solid red;
     display: flex;
@@ -54,14 +53,13 @@
     display: flex;
     justify-content: center;
     @media @phone{
-      flex-wrap: unwrap;
+      flex-direction: column;
     }
-
     .walk-text {
       width: 50%;
       @media @phone{
         border: 1px solid red;
-        width: 75%;
+        width: 80%;
       }
 
       h3 {
@@ -94,12 +92,8 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
-        @media @phone{
-          display: flex;
-          flex-direction: column-reverse
         }
       }
     }
-  }
 }
 // home
