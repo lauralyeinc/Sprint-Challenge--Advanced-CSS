@@ -261,6 +261,13 @@ footer {
   color: #F6F7F8;
   border-radius: 12px;
 }
+.container .walk .walk-text .btn button:hover {
+  background-color: #22283A;
+  color: #22283A;
+}
+@meda (max-width: 500px) {
+  width: 80%;
+}
 .container .walk .walk-img {
   width: 46%;
   margin-left: 4%;
