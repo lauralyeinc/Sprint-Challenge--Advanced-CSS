@@ -182,13 +182,13 @@ body .NavContainer {
   border: 1px solid red;
 }
 body .NavContainer h1 {
+  border: 1px solid red;
   font-size: 4.5rem;
 }
 body .NavContainer h1 a {
   border: 1px solid red;
   text-decoration: none;
   flex-direction: row;
-  color: #454A59;
 }
 footer {
   color: #22283B;
@@ -218,12 +218,28 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  border: 1px solid red;
+}
+@media (max-width: 500px) {
+  .container .space-images {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .container .space-images img {
+  border: 1px solid red;
   width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+@media (max-width: 500px) {
+  .container .space-images img {
+    width: 90%;
+  }
 }
 @media (max-width: 500px) {
   .container .space-images img .sky {
@@ -244,7 +260,14 @@ footer {
 .container .visit-planets p {
   margin-top: 13px;
 }
-.container .walk {
+@media (max-width: 500px) {
+  .container .mobileflip {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.container .mobileflip .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
@@ -252,46 +275,56 @@ footer {
   justify-content: center;
 }
 @media (max-width: 500px) {
-  .container .walk {
+  .container .mobileflip .walk {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
-.container .walk .walk-text {
+.container .mobileflip .walk .walk-text {
   width: 50%;
 }
 @media (max-width: 500px) {
-  .container .walk .walk-text {
+  .container .mobileflip .walk .walk-text {
     width: 100%;
   }
 }
-.container .walk .walk-text h3 {
+.container .mobileflip .walk .walk-text h3 {
   margin-bottom: 10px;
 }
-.container .walk .walk-text p {
+.container .mobileflip .walk .walk-text p {
   margin-bottom: 26px;
 }
-.container .walk .walk-text .btn button {
+.container .mobileflip .walk .walk-text .btn button {
   background-color: #23293B;
   color: #F6F7F8;
   border-radius: 12px;
   height: 4.5rem;
   font-size: 2rem;
 }
-.container .walk .walk-text .btn button:hover {
+@media (max-width: 500px) {
+  .container .mobileflip .walk .walk-text .btn button {
+    width: 100%;
+  }
+}
+.container .mobileflip .walk .walk-text .btn button:hover {
   background-color: #F6F7F8;
   color: #23293B;
   border-radius: 12px;
   height: 4.5rem;
   font-size: 2rem;
 }
-.container .walk-img {
+.container .mobileflip .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.container .walk-img img {
+@media (max-width: 500px) {
+  .container .mobileflip .walk-img {
+    width: 100%;
+  }
+}
+.container .mobileflip .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
