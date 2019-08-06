@@ -2,7 +2,7 @@
 
 .container {
   .intro {
-    img{
+    img {
       @media @phone{
         width: 100%;
         .Center();
@@ -20,7 +20,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    border: 1px solid red;
     @media @phone {
       display: flex;
       flex-direction: column;
@@ -28,7 +27,6 @@
     }
 
     img {
-      border: 1px solid red;
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
@@ -36,15 +34,16 @@
       @media @phone {
         width: 90%;
       }
-      .sky {
-        @media @phone {
-          display: none;
-        }
-      .launch {
-        @media @phone {
-          display: none; 
-        }
+    }
+
+    .sky {
+      @media @phone {
+        display: none;
       }
+    }
+    .launch {
+      @media @phone {
+        display: none; 
       }
     }
   }

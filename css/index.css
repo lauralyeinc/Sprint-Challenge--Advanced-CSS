@@ -4,7 +4,7 @@
   align-items: center;
 }
 .NavSpacing {
-  padding: 4.5rem;
+  padding: 1.5rem;
   background-color: #F6F6F6;
   display: flex;
   flex-direction: column;
@@ -175,20 +175,23 @@ body .NavContainer {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  padding: 4.5rem;
+  padding: 1.5rem;
   background-color: #F6F6F6;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
 }
 body .NavContainer h1 {
-  border: 1px solid red;
   font-size: 4.5rem;
+  padding: 1rem;
 }
-body .NavContainer h1 a {
-  border: 1px solid red;
-  text-decoration: none;
+body .NavContainer nav {
+  display: flex;
   flex-direction: row;
+}
+body .NavContainer nav a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 1.5rem;
 }
 footer {
   color: #22283B;
@@ -218,7 +221,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  border: 1px solid red;
 }
 @media (max-width: 500px) {
   .container .space-images {
@@ -230,7 +232,6 @@ footer {
   }
 }
 .container .space-images img {
-  border: 1px solid red;
   width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
@@ -242,12 +243,12 @@ footer {
   }
 }
 @media (max-width: 500px) {
-  .container .space-images img .sky {
+  .container .space-images .sky {
     display: none;
   }
 }
 @media (max-width: 500px) {
-  .container .space-images img .sky .launch {
+  .container .space-images .launch {
     display: none;
   }
 }
