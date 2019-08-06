@@ -55,6 +55,12 @@
       }
 
       .btn {
+        button{
+          .BtnStyle(@ebony-clay; @porcelain);
+          &:hover{
+            .BtnStyle(@porcelain; @ebony-clay);
+          }
+        }
       }
     }
 

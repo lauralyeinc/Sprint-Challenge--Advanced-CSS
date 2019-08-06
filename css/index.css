@@ -234,6 +234,22 @@ footer {
 .container .walk .walk-text p {
   margin-bottom: 26px;
 }
+.container .walk .walk-text .btn button {
+  background-color: #23293B;
+  color: #F6F7F8;
+  border-radius: 12px;
+  width: 12rem;
+  height: 5rem;
+  font-size: 2.5rem;
+}
+.container .walk .walk-text .btn button:hover {
+  background-color: #F6F7F8;
+  color: #23293B;
+  border-radius: 12px;
+  width: 12rem;
+  height: 5rem;
+  font-size: 2.5rem;
+}
 .container .walk .walk-img {
   width: 46%;
   margin-left: 4%;
