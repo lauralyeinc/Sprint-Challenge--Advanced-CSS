@@ -292,6 +292,20 @@ footer {
 @media (max-width: 500px) {
   .container .walk .walk-text .btn button {
     width: 100%;
+    background-color: #23293B;
+    color: #F6F7F8;
+    border-radius: 12px;
+    width: 12rem;
+    height: 5rem;
+    font-size: 2rem;
+  }
+  .container .walk .walk-text .btn button:hover {
+    background-color: #F6F7F8;
+    color: #23293B;
+    border-radius: 12px;
+    width: 12rem;
+    height: 5rem;
+    font-size: 2rem;
   }
 }
 .container .walk .walk-img {
