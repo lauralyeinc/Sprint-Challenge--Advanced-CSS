@@ -3,6 +3,12 @@
 .container {
 
   .intro {
+    img{
+      @media @phone{
+        width: 100%;
+        .Center();
+      }
+    }
     h2 {
       padding: 15px;
     }
@@ -21,6 +27,16 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+      sky {
+        @media @phone {
+          display: hidden;
+        }
+      launch {
+        @media @phone {
+          display: hidden; 
+        }
+      }
+      }
     }
   }
 
