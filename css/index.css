@@ -264,7 +264,7 @@ footer {
 }
 @media (max-width: 500px) {
   .container .walk .walk-text {
-    width: 80%;
+    width: 100%;
   }
 }
 .container .walk .walk-text h3 {
@@ -277,42 +277,21 @@ footer {
   background-color: #23293B;
   color: #F6F7F8;
   border-radius: 12px;
-  width: 12rem;
-  height: 5rem;
+  height: 4.5rem;
   font-size: 2rem;
 }
 .container .walk .walk-text .btn button:hover {
   background-color: #F6F7F8;
   color: #23293B;
   border-radius: 12px;
-  width: 12rem;
-  height: 5rem;
+  height: 4.5rem;
   font-size: 2rem;
 }
-@media (max-width: 500px) {
-  .container .walk .walk-text .btn button {
-    width: 100%;
-    background-color: #23293B;
-    color: #F6F7F8;
-    border-radius: 12px;
-    width: 12rem;
-    height: 5rem;
-    font-size: 2rem;
-  }
-  .container .walk .walk-text .btn button:hover {
-    background-color: #F6F7F8;
-    color: #23293B;
-    border-radius: 12px;
-    width: 12rem;
-    height: 5rem;
-    font-size: 2rem;
-  }
-}
-.container .walk .walk-img {
+.container .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.container .walk .walk-img img {
+.container .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
