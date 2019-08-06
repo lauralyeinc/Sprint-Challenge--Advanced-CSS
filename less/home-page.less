@@ -27,13 +27,13 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
-      sky {
+      .sky {
         @media @phone {
-          display: hidden;
+          display: none;
         }
-      launch {
+      .launch {
         @media @phone {
-          display: hidden; 
+          display: none; 
         }
       }
       }
@@ -58,9 +58,16 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    @media @phone {
+      .Center();
+      flex-direction: column;
+    }
 
     .walk-text {
       width: 50%;
+      @media @phone {
+        width: 80%;
+      }
 
       h3 {
         margin-bottom: 10px;
@@ -75,6 +82,9 @@
           .BtnStyle(@ebony-clay; @porcelain);
           &:hover{
             .BtnStyle(@porcelain; @ebony-clay);
+          }
+          @media @phone {
+            width: 100%;
           }
         }
       }
