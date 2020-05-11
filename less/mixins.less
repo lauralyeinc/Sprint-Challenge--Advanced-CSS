@@ -1,1 +1,21 @@
 // Mixins Here
+.Center {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.BtnStyle(@background-color; @font-color) {
+  background-color: @background-color;
+  color: @font-color;
+  border-radius: 12px;
+  height: 4.5rem;
+  font-size: 2.0rem;
+}
+
+.NavSpacing{
+  padding: 1.5rem;
+  background-color: @nav-bg;
+  display: flex;
+  flex-direction: column;
+}
